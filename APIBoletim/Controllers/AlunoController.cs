@@ -21,7 +21,8 @@ namespace APIBoletim.Controllers
         [HttpGet]
         public List<Aluno> Get()
         {
-            return repo.LerTodos();        }
+            return repo.LerTodos();        
+        }
 
         // GET api/<AlunoController>/5
         [HttpGet("{id}")]
